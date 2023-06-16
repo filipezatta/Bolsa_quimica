@@ -7,7 +7,7 @@ Em princípio, a ideia central é a produção de um Aplicativo (mobile e dektop
 
 ### Detalhes do desenvolvimento:
 - O aplicativo Web será baseado em Electron
-- O aplicativo Mobile será baseado em React Native ou Ionic (a decidir)
+- O aplicativo Mobile será baseado em Ionic
 - O website será baseado em ferramentas comuns como JS, HTML5 e CSS3
 
 #### Autores: Filipe Zatta, Juan santanna
