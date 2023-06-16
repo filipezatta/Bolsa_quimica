@@ -10,4 +10,6 @@ Em princípio, a ideia central é a produção de um Aplicativo (mobile e dektop
 - O aplicativo Mobile será baseado em Ionic
 - O website será baseado em ferramentas comuns como JS, HTML5 e CSS3
 
+### Para testar, baixe o arquivo, descompacte e rode respectivo arquivo "run_x", sendo "x" o produto a ser testado.
+
 #### Autores: Filipe Zatta, Juan santanna
