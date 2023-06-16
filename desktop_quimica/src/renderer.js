@@ -26,6 +26,7 @@
  * ```
  */
 
-import './index.css';
+import './main.css';
+import './tabela.css';
 
 console.log('👋 This message is being logged by "renderer.js", included via webpack');

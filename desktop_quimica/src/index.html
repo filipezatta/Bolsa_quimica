@@ -1,12 +1,381 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Hello World!</title>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link href="./main.css" rel="stylesheet"> 
+    <link href="./tabela.css" rel="stylesheet">
+    <title>Tabela periódica IFRS</title>
+    <script src="../script/script.js" defer></script>
+</head>
+<body>
+    
+    <header>          
+        <div id="links">
+            
+            <a href="/"><h1>Inicio</h1></a>   
+        </div>        
+        
+    </header>
 
-  </head>
-  <body>
-    <h1>💖 Hello World!</h1>
-    <p>Welcome to your Electron application.</p>
-  </body>
+    <main>
+        <ol class="periodic-table">
+            <li class="hidrogenio">
+                <abbr title="Hydrogen">H</abbr>
+            </li>
+            <li id="helio" class="gas-nobre">
+                <abbr title="hélio">He</abbr>
+            </li>
+            <li class="metal-alcalino">
+                <abbr title="Lithium">Li</abbr>
+            </li>
+            <li class="metal-alcalino-terroso">
+                <abbr title="Beryllium">Be</abbr>
+            </li>
+            <li id="boron" class="semimetal">
+                <abbr title="Boron">B</abbr>
+            </li>
+            <li class="ametal">
+                <abbr title="Carbon">C</abbr>
+            </li>
+            <li class="ametal">
+                <abbr title="Nitrogen">N</abbr>
+            </li>
+            <li class="ametal">
+                <abbr title="Oxygen">O</abbr>
+            </li>
+            <li class="halogenio">
+                <abbr title="Fluorine">F</abbr>
+            </li>
+            <li class="gas-nobre">
+                <abbr title="Neon">Ne</abbr>
+            </li>
+            <li class="metal-alcalino">
+                <abbr title="Sodium">Na</abbr>
+            </li>
+            <li class="metal-alcalino-terroso">
+                <abbr title="Magnesium">Mg</abbr>
+            </li>
+            <li id="aluminium" class="outros-metais">
+                <abbr title="Alumínio">Al</abbr>
+            </li>
+            <li class="semimetal">
+                <abbr title="Silicon">Si</abbr>
+            </li>
+            <li class="ametal">
+                <abbr title="Phosphorus">P</abbr>
+            </li>
+            <li class="ametal">
+                <abbr title="Sulphur">S</abbr>
+            </li>
+            <li class="halogenio">
+                <abbr title="Chlorine">Cl</abbr>
+            </li>
+            <li class="gas-nobre">
+                <abbr title="Argônio">Ar</abbr>
+            </li>
+            <li class="metal-alcalino">
+                <abbr title="Potássio">K</abbr>
+            </li>
+            <li class="metal-alcalino-terroso">
+                <abbr title="Cálcio">Ca</abbr>
+            </li>
+            <li>
+                <abbr title="Escândio">Sc</abbr>
+            </li>
+            <li>
+                <abbr title="Titânio">Ti</abbr>
+            </li>
+            <li>
+                <abbr title="Vanádio">Ti</abbr>
+            </li>
+            <li>
+                <abbr title="Cromo">Cr</abbr>
+            </li>
+            <li>
+                <abbr title="Manganês">Mn</abbr>
+            </li>
+            <li>
+                <abbr title="Ferro">Fe</abbr>
+            </li>
+            <li>
+                <abbr title="Cobalto">Co</abbr>
+            </li>
+            <li>
+                <abbr title="Nickel">Ni</abbr>
+            </li>
+            <li>
+                <abbr title="Copper">Cu</abbr>
+            </li>
+            <li>
+                <abbr title="Zinc">Zn</abbr>
+            </li>
+            <li class="outros-metais">
+                <abbr title="Gálio">Ga</abbr>
+            </li>
+            <li class="semimetal">
+                <abbr title="Germanium">Ge</abbr>
+            </li>
+            <li class="semimetal">
+                <abbr title="Arsenic">As</abbr>
+            </li>
+            <li class="ametal">
+                <abbr title="Selenium">Se</abbr>
+            </li>
+            <li class="halogenio">
+                <abbr title="Bromide">Br</abbr>
+            </li>
+            <li class="gas-nobre">
+                <abbr title="Krypton">Kr</abbr>
+            </li>
+            <li class="metal-alcalino">
+                <abbr title="Rubidium">Rb</abbr>
+            </li>
+            <li class="metal-alcalino-terroso">
+                <abbr title="Strontium">Sr</abbr>
+            </li>
+            <li>
+                <abbr title="Yttrium">Y</abbr>
+            </li>
+            <li>
+                <abbr title="Zirconium">Zr</abbr>
+            </li>
+            <li>
+                <abbr title="Niobium">Nb</abbr>
+            </li>
+            <li>
+                <abbr title="Molybdenum">Mo</abbr>
+            </li>
+            <li>
+                <abbr title="Technetium">Tc</abbr>
+            </li>
+            <li>
+                <abbr title="Ruthenium">Ru</abbr>
+            </li>
+            <li>
+                <abbr title="Rhodium">Ro</abbr>
+            </li>
+            <li>
+                <abbr title="Palladium">Pd</abbr>
+            </li>
+            <li>
+                <abbr title="Silver">Ag</abbr>
+            </li>
+            <li>
+                <abbr title="Cadmium">Cd</abbr>
+            </li>
+            <li class="outros-metais">
+                <abbr title="Índio">In</abbr>
+            </li>
+            <li class="outros-metais">
+                <abbr title="Estanho">Sn</abbr>
+            </li>
+            <li class="semimetal">
+                <abbr title="Antimony">Sb</abbr>
+            </li>
+            <li class="semimetal">
+                <abbr title="Tellurium">Te</abbr>
+            </li>
+            <li class="halogenio">
+                <abbr title="Iodine">I</abbr>
+            </li>
+            <li class="gas-nobre">
+                <abbr title="Xenon">Xe</abbr>
+            </li>
+            <li class="metal-alcalino">
+                <abbr title="Caesium">Cs</abbr>
+            </li>
+            <li class="metal-alcalino-terroso">
+                <abbr title="Barium">Ba</abbr>
+            </li>
+            <li class="lantanideo">
+                <abbr title="Lanthanum">La</abbr>
+            </li>
+            <li id="cerium" class="lantanideo">
+                 <abbr title="Cerium">Ce</abbr>
+            </li>
+            <li class="lantanideo">
+                <abbr title="Praseodymium">Pr</abbr>
+            </li>
+            <li class="lantanideo">
+                <abbr title="Neodymium">Nd</abbr>
+            </li>
+            <li class="lantanideo">
+                <abbr title="Promethium">Pm</abbr>
+            </li>
+            <li class="lantanideo">
+                <abbr title="Samarium">Sm</abbr>
+            </li>
+            <li class="lantanideo">
+                <abbr title="Europium">Eu</abbr>
+            </li>
+            <li class="lantanideo">
+                <abbr title="Gadolinium">Gd</abbr>
+            </li>
+            <li class="lantanideo">
+                <abbr title="Terbium">Td</abbr>
+            </li>
+            <li class="lantanideo">
+                <abbr title="Dysprosium">Dy</abbr>
+            </li>
+            <li class="lantanideo">
+                <abbr title="Holmium">Ho</abbr>
+            </li>
+            <li class="lantanideo">
+                <abbr title="Erbium">Er</abbr>
+            </li>
+            <li class="lantanideo">
+                <abbr title="Thulium">Tm</abbr>
+            </li>
+            <li class="lantanideo">
+                <abbr title="Ytterbium">Yb</abbr>
+            </li>
+            <li class="lantanideo">
+                <abbr title="Lutetium">Lu</abbr>
+            </li>  
+            <li id="hafnium">
+                <abbr title="Hafnium">Hf</abbr>
+            </li>
+            <li>
+                <abbr title="Tântalo">Ta</abbr>
+            </li>
+            <li>
+                <abbr title="Tungsten">W</abbr>
+            </li>
+            <li>
+                <abbr title="Rhenium">Re</abbr>
+            </li>
+            <li>
+                <abbr title="Ósmio">Os</abbr>
+            </li> 
+            <li>
+                <abbr title="Irídio">Ir</abbr>
+            </li>
+            <li>
+                <abbr title="Platina">Pt</abbr>
+            </li>
+            <li>
+                <abbr title="Ouro">Au</abbr>
+            </li>
+            <li>
+                <abbr title="Mercúrio">Hg</abbr>
+            </li>
+            <li class="outros-metais">
+                <abbr title="Tálio">Tl</abbr>
+            </li>
+            <li class="outros-metais">
+                <abbr title="Chumbo">Pb</abbr>
+            </li>
+            <li class="outros-metais">
+                <abbr title="Bismuto">Bi</abbr>
+            </li>
+            <li class="semimetal">
+                <abbr title="Polônio">Po</abbr>
+            </li>
+            <li class="halogenio">
+                <abbr title="Astato">At</abbr>
+            </li>
+            <li class="gas-nobre">
+                <abbr title="Radônio">Rn</abbr>
+            </li>
+            <li class="metal-alcalino">
+                <abbr title="Frâncio">Fr</abbr>
+            </li>
+            <li class="metal-alcalino-terroso">
+                <abbr title="Rádio">Ra</abbr>
+            </li>
+            <li class="actinideo">
+                <abbr title="Actinium">Ac</abbr>
+            </li>
+            <li class="actinideo" id="thorium" >
+                <abbr title="Thorium">Th</abbr>
+            </li>
+            <li class="actinideo">
+                <abbr title="Protactinium">Pa</abbr>
+            </li>
+            <li class="actinideo">
+                <abbr title="Uranium">U</abbr>
+            </li>
+            <li class="actinideo">
+                <abbr title="Neptunium">Np</abbr>
+            </li>
+            <li class="actinideo">
+                <abbr title="Plutonium">Up</abbr>
+            </li>
+            <li class="actinideo">
+                <abbr title="Americium">Am</abbr>
+            </li>
+            <li class="actinideo">
+                <abbr title="Curium">Cm</abbr>
+            </li>
+            <li class="actinideo">
+                <abbr title="Berkelium">Bk</abbr>
+            </li>
+            <li class="actinideo">
+                <abbr title="Californium">Cf</abbr>
+            </li>
+            <li class="actinideo">
+                <abbr title="Einsteinium">Es</abbr>
+            </li>
+            <li class="actinideo">
+                <abbr title="Fermium">Fm</abbr>
+            </li>
+            <li class="actinideo">
+                <abbr title="Mendelevium">Md</abbr>
+            </li>
+            <li class="actinideo">
+                <abbr title="Nobelium">No</abbr>
+            </li>
+            <li class="actinideo">
+                <abbr title="Lawrencium">Lr</abbr>
+            </li>
+            <li id="rutherfordium">
+                <abbr title="Rutherfordium">Rf</abbr>
+            </li>
+            <li>
+                <abbr title="Dubnium">Db</abbr>
+            </li>
+            <li>
+                <abbr title="Seaborgium">Sg</abbr>
+            </li>
+            <li>
+                <abbr title="Bohrium">Bh</abbr>
+            </li>
+            <li>
+                <abbr title="Hassium">Hs</abbr>
+            </li>
+            <li>
+                <abbr title="Meitnerium">Mt</abbr>
+            </li>
+            <li>
+                <abbr title="Darmstadtium">Ds</abbr>
+            </li>
+            <li>
+                <abbr title="Roentgenium">Rg</abbr>
+            </li>
+            <li>
+                <abbr title="Copernicium">Cn</abbr>
+            </li>
+            <li class="outros-metais">
+                <abbr title="Nihonium">Nh</abbr>
+            </li>
+            <li class="outros-metais">
+                <abbr title="Flerovium">Fl</abbr>
+            </li>
+            <li class="outros-metais">
+                <abbr title="Moscovium">Mc</abbr>
+            </li>
+            <li class="outros-metais">
+                <abbr title="Livermório">Lv</abbr>
+            </li>
+            <li class="halogenio">
+                <abbr title="Tennesso">Ts</abbr>
+            </li>
+            <li class="gas-nobre">
+                <abbr title="Oganessônio">Og</abbr>
+            </li>
+            </ol>
+    </main>
+
+    </footer>
+</body>
 </html>
