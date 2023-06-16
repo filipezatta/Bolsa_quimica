@@ -6,7 +6,7 @@ Em princípio, a ideia central é a produção de um Aplicativo (mobile e dektop
 - Uma terceira tela com os detalhes de cada elemento
 
 ### Detalhes do desenvolvimento:
-- O aplicativo Web será baseado em Electron
+- O aplicativo desktop será baseado em Electron
 - O aplicativo Mobile será baseado em Ionic
 - O website será baseado em ferramentas comuns como JS, HTML5 e CSS3
 
