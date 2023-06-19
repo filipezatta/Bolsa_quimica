@@ -48,8 +48,9 @@ ipcMain.on('asynchronous-message', function (evt, message) {
   ejse.data(message[1])
 
   if (message[0] == 'createNewWindow') {
-    if (!detalhe instanceof BrowserWindow){
-      detalhe.close()
+    if (detalhe instanceof BrowserWindow){
+      console.log(typeof detalhe)
+      detalhe.destroy()
     }
     detalhe = createWindow(mainWindow.getSize()[0]/2.5,mainWindow.getSize()[1], './public/elemento.ejs',mainWindow.getPosition()[0]+mainWindow.getSize()[0], mainWindow.getPosition()[1])
   }
