@@ -1,0 +1,108 @@
+
+
+/* Body Reset */
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: var(--main-text-color);
+    /*outline: 1px solid red;*/ 
+}
+
+/* variaveis de cor*/
+:root{
+    /*backgrounds*/
+    --cor-interna: #e2e1e1; 
+    --cor-externa: #c2c3c6;
+    /*text*/
+    --main-highlight-color:  orangered;
+    --main-text-color: #292323;
+    --misc-text-color: #0f1f3b;
+    /*borders*/
+    --border-color: #ffffff ;
+    --bio-border-color: #0f1f3b;
+
+    --header-height: 0vh;
+    --footer-height: 0vh;
+
+/*https://coolors.co/palette/000000-14213d-fca311-e5e5e5-ffffff*/
+}
+
+body {
+    min-height: 100vh;
+}
+header {    
+    position: relative;
+    padding-left: 20px;
+    padding-right: 1px;
+    min-height: var(--header-height);
+    margin: 0px 0px 0px 0px;
+    padding: 0 0 10px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    background-color: var(--cor-externa);
+
+    & #logo{
+        display: flex;
+        align-items: end;
+        padding-right: 10px;
+        border-right: 3px solid var(--bio-border-color);
+        > img {            
+            max-height: calc(var(--header-height));
+        }
+    }
+
+    & #links {
+        margin-left: 1%;
+        display: flex;
+        justify-content: left;
+    }
+} 
+
+main {
+    background-color: var(--cor-interna);
+    box-sizing: border-box;
+    min-height: calc(100vh - var(--header-height) - var(--footer-height));
+    && abbr {
+        cursor:help;}
+}
+
+footer {
+    min-height: var(--footer-height);
+    position: relative; 
+    display: flex;
+    width: 100%;
+    flex-direction: row;       
+    background-color: var(--cor-externa);   
+    
+    > div {
+        width: 100%;
+    }
+
+    & #info {
+        padding: 10px;
+        list-style: none;  
+        font-size: 14px;
+        
+        > li {
+            text-align: left; 
+            border-style: solid;
+            border-color: var(--main-highlight-color);
+            border-width: 0px 0px 0px 3px ;
+            
+        
+            > p {
+                margin-left: 4px;
+                > a {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+}

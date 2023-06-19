@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link href="./css/main.css" rel="stylesheet"> 
+    <link href="./css/tabela.css" rel="stylesheet">
+    <title>Tabela periódica IFRS</title>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <main>
+        <ol class="periodic-table">
+            <li class="hidrogenio">
+                <abbr onclick="openWindow(this.title)" title="Hidrogênio">H</abbr>
+            </li>
+            <li id="helio" class="gas-nobre">
+                <abbr onclick="openWindow(this.title)" title="Hélio">He</abbr>
+            </li>
+            <li class="metal-alcalino">
+                <abbr onclick="openWindow(this.title)" title="Lítio">Li</abbr>
+            </li>
+            <li class="metal-alcalino-terroso">
+                <abbr onclick="openWindow(this.title)" title="Berílio">Be</abbr>
+            </li>
+            <li id="boron" class="semimetal">
+                <abbr onclick="openWindow(this.title)" title="Boro">B</abbr>
+            </li>
+            <li class="ametal">
+                <abbr onclick="openWindow(this.title)" title="Carbono">C</abbr>
+            </li>
+            <li class="ametal">
+                <abbr onclick="openWindow(this.title)" title="Nitrogênio">N</abbr>
+            </li>
+            <li class="ametal">
+                <abbr onclick="openWindow(this.title)" title="Oxigênio">O</abbr>
+            </li>
+            <li class="halogenio">
+                <abbr onclick="openWindow(this.title)" title="Flúor">F</abbr>
+            </li>
+            <li class="gas-nobre">
+                <abbr onclick="openWindow(this.title)" title="Neônio">Ne</abbr>
+            </li>
+            <li class="metal-alcalino">
+                <abbr onclick="openWindow(this.title)" title="Sódio">Na</abbr>
+            </li>
+            <li class="metal-alcalino-terroso">
+                <abbr onclick="openWindow(this.title)" title="Magnésio">Mg</abbr>
+            </li>
+            <li id="aluminium" class="outros-metais">
+                <abbr onclick="openWindow(this.title)" title="Alumínio">Al</abbr>
+            </li>
+            <li class="semimetal">
+                <abbr onclick="openWindow(this.title)" title="Silício">Si</abbr>
+            </li>
+            <li class="ametal">
+                <abbr onclick="openWindow(this.title)" title="Fósforo">P</abbr>
+            </li>
+            <li class="ametal">
+                <abbr onclick="openWindow(this.title)" title="Enxofre">S</abbr>
+            </li>
+            <li class="halogenio">
+                <abbr onclick="openWindow(this.title)" title="Cloro">Cl</abbr>
+            </li>
+            <li class="gas-nobre">
+                <abbr onclick="openWindow(this.title)" title="Argônio">Ar</abbr>
+            </li>
+            <li class="metal-alcalino">
+                <abbr onclick="openWindow(this.title)" title="Potássio">K</abbr>
+            </li>
+            <li class="metal-alcalino-terroso">
+                <abbr onclick="openWindow(this.title)" title="Cálcio">Ca</abbr>
+            </li>
+            <li id="scandium" class="metal-transicao">
+                <abbr onclick="openWindow(this.title)" title="Escândio">Sc</abbr>
+            </li>
+            <li id="titanium" class="metal-transicao">
+                <abbr onclick="openWindow(this.title)" title="Titânio">Ti</abbr>
+            </li>
+            <li id="vanadium" class="metal-transicao">
+                <abbr onclick="openWindow(this.title)" title="Vanádio">V</abbr>
+            </li>
+            <li id="chromium" class="metal-transicao">
+                <abbr onclick="openWindow(this.title)" title="Cromo">Cr</abbr>
+            </li>
+            <li id="manganese" class="metal-transicao">
+                <abbr onclick="openWindow(this.title)" title="Manganês">Mn</abbr>
+            </li>
+            <li id="iron" class="metal-transicao">
+                <abbr onclick="openWindow(this.title)" title="Ferro">Fe</abbr>
+            </li>
+            <li id="cobalt" class="metal-transicao">
+                <abbr onclick="openWindow(this.title)" title="Cobalto">Co</abbr>
+            </li>
+            <li id="nickel" class="metal-transicao">
+                <abbr onclick="openWindow(this.title)" title="Níquel">Ni</abbr>
+            </li>
+            <li id="copper" class="metal-transicao">
+                <abbr onclick="openWindow(this.title)" title="Cobre">Cu</abbr>
+            </li>
+            <li id="zinc" class="metal-transicao">
+                <abbr onclick="openWindow(this.title)" title="Zinco">Zn</abbr>
+            </li>
+            <li id="gallium" class="outros-metais">
+                <abbr onclick="openWindow(this.title)" title="Gálio">Ga</abbr>
+            </li>
+            <li id="germanium" class="semimetal">
+                <abbr onclick="openWindow(this.title)" title="Germânio">Ge</abbr>
+            </li>
+            <li id="arsenic" class="semimetal">
+                <abbr onclick="openWindow(this.title)" title="Arsênio">As</abbr>
+            </li>
+            <li id="selenium" class="ametal">
+                <abbr onclick="openWindow(this.title)" title="Selênio">Se</abbr>
+            </li>
+            <li id="bromine" class="halogenio">
+                <abbr onclick="openWindow(this.title)" title="Bromo">Br</abbr>
+            </li>
+            <li id="krypton" class="gas-nobre">
+                <abbr onclick="openWindow(this.title)" title="Criptônio">Kr</abbr>
+            </li>
+            <li id="rubidium" class="metal-alcalino">
+                <abbr onclick="openWindow(this.title)" title="Rubídio">Rb</abbr>
+            </li>
+            <li id="strontium" class="metal-alcalino-terroso">
+                <abbr onclick="openWindow(this.title)" title="Estrôncio">Sr</abbr>
+            </li>
+            <li id="yttrium" class="metal-transicao">
+                <abbr onclick="openWindow(this.title)" title="Ítrio">Y</abbr>
+            </li>
+            <li id="zirconium" class="metal-transicao">
+                <abbr onclick="openWindow(this.title)" title="Zircônio">Zr</abbr>
+            </li>
+            <li id="niobium" class="metal-transicao">
+                <abbr onclick="openWindow(this.title)" title="Nióbio">Nb</abbr>
+            </li>
+            <li id="molybdenum" class="metal-transicao">
+                <abbr onclick="openWindow(this.title)" title="Molibdênio">Mo</abbr>
+            </li>
+            <li id="technetium" class="metal-transicao">
+                <abbr onclick="openWindow(this.title)" title="Tecnécio">Tc</abbr>
+            </li>
+            <li id="ruthenium" class="metal-transicao">
+                <abbr onclick="openWindow(this.title)" title="Rutênio">Ru</abbr>
+            </li>
+            <li id="rhodium" class="metal-transicao">
+                <abbr onclick="openWindow(this.title)" title="Ródio">Rh</abbr>
+            </li>
+            <li id="palladium" class="metal-transicao">
+                <abbr onclick="openWindow(this.title)" title="Paládio">Pd</abbr>
+            </li>
+            <li id="silver" class="metal-transicao">
+                <abbr onclick="openWindow(this.title)" title="Prata">Ag</abbr>
+            </li>
+            <li id="cadmium" class="metal-transicao">
+                <abbr onclick="openWindow(this.title)" title="Cádmio">Cd</abbr>
+            </li>
+            <li id="indium" class="outros-metais">
+                <abbr onclick="openWindow(this.title)" title="Índio">In</abbr>
+            </li>
+            <li id="tin" class="outros-metais">
+                <abbr onclick="openWindow(this.title)" title="Estanho">Sn</abbr>
+            </li>
+            <li id="antimony" class="semimetal">
+                <abbr onclick="openWindow(this.title)" title="Antimônio">Sb</abbr>
+            </li>
+            <li id="tellurium" class="semimetal">
+                <abbr onclick="openWindow(this.title)" title="Telúrio">Te</abbr>
+            </li>
+            <li id="iodine" class="halogenio">
+                <abbr onclick="openWindow(this.title)" title="Iodo">I</abbr>
+            </li>
+            <li id="xenon" class="gas-nobre">
+                <abbr onclick="openWindow(this.title)" title="Xenônio">Xe</abbr>
+            </li>
+            <li id="cesium" class="metal-alcalino">
+                <abbr onclick="openWindow(this.title)" title="Césio">Cs</abbr>
+            </li>
+            <li id="barium" class="metal-alcalino-terroso">
+                <abbr onclick="openWindow(this.title)" title="Bário">Ba</abbr>
+            </li>
+            <li id="lanthanum" class="lantanideo">
+                <abbr onclick="openWindow(this.title)" title="Lantânio">La</abbr>
+            </li>
+            <li id="cerium" class="lantanideo">
+                <abbr onclick="openWindow(this.title)" title="Cério">Ce</abbr>
+            </li>
+            <li id="praseodymium" class="lantanideo">
+                <abbr onclick="openWindow(this.title)" title="Praseodímio">Pr</abbr>
+            </li>
+            <li id="neodymium" class="lantanideo">
+                <abbr onclick="openWindow(this.title)" title="Neodímio">Nd</abbr>
+            </li>
+            <li id="promethium" class="lantanideo">
+                <abbr onclick="openWindow(this.title)" title="Promécio">Pm</abbr>
+            </li>
+            <li id="samarium" class="lantanideo">
+                <abbr onclick="openWindow(this.title)" title="Samário">Sm</abbr>
+            </li>
+            <li id="europium" class="lantanideo">
+                <abbr onclick="openWindow(this.title)" title="Európio">Eu</abbr>
+            </li>
+            <li id="gadolinium" class="lantanideo">
+                <abbr onclick="openWindow(this.title)" title="Gadolínio">Gd</abbr>
+            </li>
+            <li id="terbium" class="lantanideo">
+                <abbr onclick="openWindow(this.title)" title="Térbio">Tb</abbr>
+            </li>
+            <li id="dysprosium" class="lantanideo">
+                <abbr onclick="openWindow(this.title)" title="Disprósio">Dy</abbr>
+            </li>
+            <li id="holmium" class="lantanideo">
+                <abbr onclick="openWindow(this.title)" title="Hólmio">Ho</abbr>
+            </li>
+            <li id="erbium" class="lantanideo">
+                <abbr onclick="openWindow(this.title)" title="Érbio">Er</abbr>
+            </li>
+            <li id="thulium" class="lantanideo">
+                <abbr onclick="openWindow(this.title)" title="Túlio">Tm</abbr>
+            </li>
+            <li id="ytterbium" class="lantanideo">
+                <abbr onclick="openWindow(this.title)" title="Itérbio">Yb</abbr>
+            </li>
+            <li id="lutetium" class="lantanideo">
+                <abbr onclick="openWindow(this.title)" title="Lutécio">Lu</abbr>
+            </li>
+            <li id="hafnium" class="metal-transicao">
+                <abbr onclick="openWindow(this.title)" title="Háfnio">Hf</abbr>
+            </li>
+            <li id="tantalum" class="metal-transicao">
+                <abbr onclick="openWindow(this.title)" title="Tântalo">Ta</abbr>
+            </li>
+            <li id="tungsten" class="metal-transicao">
+                <abbr onclick="openWindow(this.title)" title="Tungstênio">W</abbr>
+            </li>
+            <li id="rhenium" class="metal-transicao">
+                <abbr onclick="openWindow(this.title)" title="Rênio">Re</abbr>
+            </li>
+            <li id="osmium" class="metal-transicao">
+                <abbr onclick="openWindow(this.title)" title="Ósmio">Os</abbr>
+            </li>
+            <li id="iridium" class="metal-transicao">
+                <abbr onclick="openWindow(this.title)" title="Irídio">Ir</abbr>
+            </li>
+            <li id="platinum" class="metal-transicao">
+                <abbr onclick="openWindow(this.title)" title="Platina">Pt</abbr>
+            </li>
+            <li id="gold" class="metal-transicao">
+                <abbr onclick="openWindow(this.title)" title="Ouro">Au</abbr>
+            </li>
+            <li id="mercury" class="metal-transicao">
+                <abbr onclick="openWindow(this.title)" title="Mercúrio">Hg</abbr>
+            </li>
+            <li id="thallium" class="outros-metais">
+                <abbr onclick="openWindow(this.title)" title="Tálio">Tl</abbr>
+            </li>
+            <li id="lead" class="outros-metais">
+                <abbr onclick="openWindow(this.title)" title="Chumbo">Pb</abbr>
+            </li>
+            <li id="bismuth" class="outros-metais">
+                <abbr onclick="openWindow(this.title)" title="Bismuto">Bi</abbr>
+            </li>
+            <li id="polonium" class="semimetal">
+                <abbr onclick="openWindow(this.title)" title="Polônio">Po</abbr>
+            </li>
+            <li id="astatine" class="halogenio">
+                <abbr onclick="openWindow(this.title)" title="Ástato">At</abbr>
+            </li>
+            <li id="radon" class="gas-nobre">
+                <abbr onclick="openWindow(this.title)" title="Radônio">Rn</abbr>
+            </li>
+            <li id="francium" class="metal-alcalino">
+                <abbr onclick="openWindow(this.title)" title="Frâncio">Fr</abbr>
+            </li>
+            <li id="radium" class="metal-alcalino-terroso">
+                <abbr onclick="openWindow(this.title)" title="Rádio">Ra</abbr>
+            </li>
+            <li id="actinium" class="actinideo">
+                <abbr onclick="openWindow(this.title)" title="Actínio">Ac</abbr>
+            </li>
+            <li id="thorium" class="actinideo">
+                <abbr onclick="openWindow(this.title)" title="Tório">Th</abbr>
+            </li>
+            <li id="protactinium" class="actinideo">
+                <abbr onclick="openWindow(this.title)" title="Protactínio">Pa</abbr>
+            </li>
+            <li id="uranium" class="actinideo">
+                <abbr onclick="openWindow(this.title)" title="Urânio">U</abbr>
+            </li>
+            <li id="neptunium" class="actinideo">
+                <abbr onclick="openWindow(this.title)" title="Netúnio">Np</abbr>
+            </li>
+            <li id="plutonium" class="actinideo">
+                <abbr onclick="openWindow(this.title)" title="Plutônio">Pu</abbr>
+            </li>
+            <li id="americium" class="actinideo">
+                <abbr onclick="openWindow(this.title)" title="Amerício">Am</abbr>
+            </li>
+            <li id="curium" class="actinideo">
+                <abbr onclick="openWindow(this.title)" title="Cúrio">Cm</abbr>
+            </li>
+            <li id="berkelium" class="actinideo">
+                <abbr onclick="openWindow(this.title)" title="Berquélio">Bk</abbr>
+            </li>
+            <li id="californium" class="actinideo">
+                <abbr onclick="openWindow(this.title)" title="Califórnio">Cf</abbr>
+            </li>
+            <li id="einsteinium" class="actinideo">
+                <abbr onclick="openWindow(this.title)" title="Einstênio">Es</abbr>
+            </li>
+            <li id="fermium" class="actinideo">
+                <abbr onclick="openWindow(this.title)" title="Férmio">Fm</abbr>
+            </li>
+            <li id="mendelevium" class="actinideo">
+                <abbr onclick="openWindow(this.title)" title="Mendelévio">Md</abbr>
+            </li>
+            <li id="nobelium" class="actinideo">
+                <abbr onclick="openWindow(this.title)" title="Nobélio">No</abbr>
+            </li>
+            <li id="lawrencium" class="actinideo">
+                <abbr onclick="openWindow(this.title)" title="Laurêncio">Lr</abbr>
+            </li>
+            <li id="rutherfordium">
+                <abbr onclick="openWindow(this.title)" title="Rutherfórdio">Rf</abbr>
+            </li>
+            <li>
+                <abbr onclick="openWindow(this.title)" title="Dúbnio">Db</abbr>
+            </li>
+            <li>
+                <abbr onclick="openWindow(this.title)" title="Seabórgio">Sg</abbr>
+            </li>
+            <li>
+                <abbr onclick="openWindow(this.title)" title="Bóhrio">Bh</abbr>
+            </li>
+            <li>
+                <abbr onclick="openWindow(this.title)" title="Hássio">Hs</abbr>
+            </li>
+            <li>
+                <abbr onclick="openWindow(this.title)" title="Meitnério">Mt</abbr>
+            </li>
+            <li>
+                <abbr onclick="openWindow(this.title)" title="Darmstádio">Ds</abbr>
+            </li>
+            <li>
+                <abbr onclick="openWindow(this.title)" title="Roentgênio">Rg</abbr>
+            </li>
+            <li>
+                <abbr onclick="openWindow(this.title)" title="Copernício">Cn</abbr>
+            </li>
+            <li class="outros-metais">
+                <abbr onclick="openWindow(this.title)" title="Nihônio">Nh</abbr>
+            </li>
+            <li class="outros-metais">
+                <abbr onclick="openWindow(this.title)" title="Flevório">Fl</abbr>
+            </li>
+            <li class="outros-metais">
+                <abbr onclick="openWindow(this.title)" title="Moscóvio">Mc</abbr>
+            </li>
+            <li class="outros-metais">
+                <abbr onclick="openWindow(this.title)" title="Livermório">Lv</abbr>
+            </li>
+            <li class="halogenio">
+                <abbr onclick="openWindow(this.title)" title="Tennesso">Ts</abbr>
+            </li>
+            <li class="gas-nobre">
+                <abbr onclick="openWindow(this.title)" title="Oganessônio">Og</abbr>
+            </li>
+            </ol>
+            
+    </main>
+</body>
+</html>
