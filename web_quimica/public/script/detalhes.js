@@ -1,7 +1,7 @@
 const elementCube = document.getElementById("element-details")
 
-//elementsJSON = require('./elements.json')
-import elementsJSON from './elementos.json';
+elementsJSON = require('./elements.json')
+import elementsJSON from './elementos.json' assert{type: "json"};
 
 function openWindow(element) {
 
