@@ -2,9 +2,9 @@
   "dependencies": {
     "express": "^4.18.2"
   },
-  "name": "projeto_jogo",
+  "name": "websitequimica",
   "version": "1.0.0",
-  "description": "Projeto de um jogo ",
+  "description": "websitequimica",
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
@@ -12,12 +12,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jonhybr/Projeto-site-jogo.git"
+    "url": ""
   },
-  "author": "Andrey, Christian, Filipe, Joao",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jonhybr/Projeto-site-jogo/issues"
-  },
-  "homepage": "https://github.com/jonhybr/Projeto-site-jogo#readme"
+  "author": "Filipe e Juan",
+  "license": "ISC"
 }

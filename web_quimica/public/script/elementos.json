@@ -1,0 +1,592 @@
+{
+    "Hidrogênio": {
+        "name": "Hidrogênio",
+        "abbreviation": "H",
+        "randomFact": "O hidrogênio é o elemento mais leve!"
+    },
+    "Hélio": {
+        "name": "Hélio",
+        "abbreviation": "He",
+        "randomFact": "O hélio é o primeiro gás nobre!"
+    },
+    "Lítio": {
+        "name": "Lítio",
+        "abbreviation": "Li",
+        "randomFact": "O lítio é um metal alcalino macio, prateado e altamente reativo."
+    },
+    "Berílio": {
+        "name": "Berílio",
+        "abbreviation": "Be",
+        "randomFact": "O berílio é um metal alcalino-terroso leve, duro e quebradiço."
+    },
+    "Boro": {
+        "name": "Boro",
+        "abbreviation": "B",
+        "randomFact": "O boro é um elementoóide que ocorre naturalmente e é essencial para várias plantas."
+    },
+    "Carbono": {
+        "name": "Carbono",
+        "abbreviation": "C",
+        "randomFact": "O carbono é o bloco de construção fundamental da vida e possui uma variedade de formas, incluindo diamante e grafite."
+    },
+    "Nitrogênio": {
+        "name": "Nitrogênio",
+        "abbreviation": "N",
+        "randomFact": "O nitrogênio é um gás diatômico incolor e inodoro que constitui cerca de 78% da atmosfera terrestre."
+    },
+    "Oxigênio": {
+        "name": "Oxigênio",
+        "abbreviation": "O",
+        "randomFact": "O oxigênio é um elemento gasoso essencial para a respiração e a maioria dos processos de combustão."
+    },
+    "Flúor": {
+        "name": "Flúor",
+        "abbreviation": "F",
+        "randomFact": "O flúor é o elemento mais eletronegativo e reativo."
+    },
+    "Neônio": {
+        "name": "Neônio",
+        "abbreviation": "Ne",
+        "randomFact": "O neônio é um gás nobre incolor e inodoro, comumente usado em sinais de néon."
+    },
+    "Sódio": {
+        "name": "Sódio",
+        "abbreviation": "Na",
+        "randomFact": "O sódio é um metal alcalino macio e prateado que reage violentamente com a água."
+    },
+    "Magnésio": {
+        "name": "Magnésio",
+        "abbreviation": "Mg",
+        "randomFact": "O magnésio é um metal alcalino-terroso leve, utilizado em ligas metálicas e compostos farmacêuticos."
+    },
+    "Alumínio": {
+        "name": "Alumínio",
+        "abbreviation": "Al",
+        "randomFact": "O alumínio é um metal leve, resistente à corrosão e amplamente utilizado em várias indústrias."
+    },
+    "Silício": {
+        "name": "Silício",
+        "abbreviation": "Si",
+        "randomFact": "O silício é um elementoóide essencial para a fabricação de semicondutores e painéis solares."
+    },
+    "Fósforo": {
+        "name": "Fósforo",
+        "abbreviation": "P",
+        "randomFact": "O fósforo é um elementoóide altamente reativo e essencial para a vida, sendo um componente importante do DNA e RNA."
+    },
+    "Enxofre": {
+        "name": "Enxofre",
+        "abbreviation": "S",
+        "randomFact": "O enxofre é um elemento não metálico encontrado em muitos minerais e é importante para diversas indústrias."
+    },
+    "Cloro": {
+        "name": "Cloro",
+        "abbreviation": "Cl",
+        "randomFact": "O cloro é um elementoóide altamente reativo, utilizado em produtos químicos e tratamento de água."
+    },
+    "Argônio": {
+        "name": "Argônio",
+        "abbreviation": "Ar",
+        "randomFact": "O argônio é um gás nobre incolor e inodoro, utilizado em lâmpadas e processos de soldagem."
+    },
+    "Potássio": {
+        "name": "Potássio",
+        "abbreviation": "K",
+        "randomFact": "O potássio é um metal alcalino macio, altamente reativo e encontrado em muitos compostos orgânicos."
+    },
+    "Cálcio": {
+        "name": "Cálcio",
+        "abbreviation": "Ca",
+        "randomFact": "O cálcio é um metal alcalino-terroso essencial para a formação dos ossos e dentes e para a função nervosa e muscular."
+    },
+    "Escândio": {
+        "name": "Escândio",
+        "abbreviation": "Sc",
+        "randomFact": "O escândio é um metal de transição utilizado em ligas de alumínio e como aditivo para melhorar a resistência de metais."
+    },
+    "Titânio": {
+        "name": "Titânio",
+        "abbreviation": "Ti",
+        "randomFact": "O titânio é um metal de transição leve, forte e resistente à corrosão, frequentemente usado em aplicações aeroespaciais."
+    },
+    "Vanádio": {
+        "name": "Vanádio",
+        "abbreviation": "V",
+        "randomFact": "O vanádio é um metal de transição usado em ligas metálicas e como catalisador em algumas reações químicas."
+    },
+    "Cromo": {
+        "name": "Cromo",
+        "abbreviation": "Cr",
+        "randomFact": "O cromo é um metal de transição utilizado principalmente para revestir outros metais e em ligas de aço inoxidável."
+    },
+    "Manganês": {
+        "name": "Manganês",
+        "abbreviation": "Mn",
+        "randomFact": "O manganês é um metal de transição frequentemente usado em ligas metálicas e na produção de pilhas."
+    },
+    "Ferro": {
+        "name": "Ferro",
+        "abbreviation": "Fe",
+        "randomFact": "O ferro é um metal de transição amplamente utilizado em construções, veículos e produção de aço."
+    },
+    "Cobalto": {
+        "name": "Cobalto",
+        "abbreviation": "Co",
+        "randomFact": "O cobalto é um metal de transição usado em ligas metálicas, baterias recarregáveis e catalisadores."
+    },
+    "Níquel": {
+        "name": "Níquel",
+        "abbreviation": "Ni",
+        "randomFact": "O níquel é um metal de transição resistente à corrosão, frequentemente usado em ligas e revestimentos."
+    },
+    "Cobre": {
+        "name": "Cobre",
+        "abbreviation": "Cu",
+        "randomFact": "O cobre é um metal de transição com alta condutividade elétrica e térmica, amplamente usado em fios e cabos."
+    },
+    "Zinco": {
+        "name": "Zinco",
+        "abbreviation": "Zn",
+        "randomFact": "O zinco é um metal de transição usado em ligas, revestimentos e como suplemento dietético."
+    },
+    "Gálio": {
+        "name": "Gálio",
+        "abbreviation": "Ga",
+        "randomFact": "O gálio é um metal de transição usado em semicondutores e em alguns dispositivos eletrônicos."
+    },
+    "Germânio": {
+        "name": "Germânio",
+        "abbreviation": "Ge",
+        "randomFact": "O germânio é um elementoóide usado em semicondutores, óptica e na produção de fibras ópticas."
+    },
+    "Arsênio": {
+        "name": "Arsênio",
+        "abbreviation": "As",
+        "randomFact": "O arsênio é um elementoóide altamente tóxico, mas também possui aplicações em medicina e na indústria."
+    },
+    "Selênio": {
+        "name": "Selênio",
+        "abbreviation": "Se",
+        "randomFact": "O selênio é um elementoóide essencial para a vida e possui aplicações em eletrônica e em células fotovoltaicas."
+    },
+    "Bromo": {
+        "name": "Bromo",
+        "abbreviation": "Br",
+        "randomFact": "O bromo é um elementoóide líquido vermelho-marrom que evapora facilmente, usado em produtos químicos e retardadores de chama."
+    },
+    "Criptônio": {
+        "name": "Criptônio",
+        "abbreviation": "Kr",
+        "randomFact": "O criptônio é um gás nobre incolor e inodoro, usado em lâmpadas e em lasers."
+    },
+    "Rubídio": {
+        "name": "Rubídio",
+        "abbreviation": "Rb",
+        "randomFact": "O rubídio é um metal alcalino macio e altamente reativo, frequentemente usado em relógios atômicos e células fotoelétricas."
+    },
+    "Estrôncio": {
+        "name": "Estrôncio",
+        "abbreviation": "Sr",
+        "randomFact": "O estrôncio é um metal alcalino-terroso usado em pirotecnia, em materiais pirotécnicos e em aplicações médicas."
+    },
+    "Ítrio": {
+        "name": "Ítrio",
+        "abbreviation": "Y",
+        "randomFact": "O ítrio é um metal de transição usado em ligas metálicas e em aplicações de ímãs de alta temperatura."
+    },
+    "Zircônio": {
+        "name": "Zircônio",
+        "abbreviation": "Zr",
+        "randomFact": "O zircônio é um metal de transição resistente à corrosão, usado em reatores nucleares e em ligas metálicas."
+    },
+    "Nióbio": {
+        "name": "Nióbio",
+        "abbreviation": "Nb",
+        "randomFact": "O nióbio é um metal de transição usado em ligas metálicas, em supercondutores e em indústrias aeroespaciais."
+    },
+    "Molibdênio": {
+        "name": "Molibdênio",
+        "abbreviation": "Mo",
+        "randomFact": "O molibdênio é um metal de transição resistente ao calor, usado em ligas metálicas e em catalisadores."
+    },
+    "Tecnécio": {
+        "name": "Tecnécio",
+        "abbreviation": "Tc",
+        "randomFact": "O tecnécio é um elementoóide radioativo, usado em medicina nuclear e em pesquisas científicas."
+    },
+    "Rutênio": {
+        "name": "Rutênio",
+        "abbreviation": "Ru",
+        "randomFact": "O rutênio é um metal de transição resistente à corrosão, usado em ligas metálicas e em catalisadores."
+    },
+    "Ródio": {
+        "name": "Ródio",
+        "abbreviation": "Rh",
+        "randomFact": "O ródio é um metal de transição usado em ligas metálicas, em catalisadores e em joias."
+    },
+    "Paládio": {
+        "name": "Paládio",
+        "abbreviation": "Pd",
+        "randomFact": "O paládio é um metal de transição branco-prateado, usado em catalisadores, em joias e em odontologia."
+    },
+    "Prata": {
+        "name": "Prata",
+        "abbreviation": "Ag",
+        "randomFact": "A prata é um metal de transição branco brilhante, usado em joias, em moedas e em diversos produtos."
+    },
+    "Cádmio": {
+        "name": "Cádmio",
+        "abbreviation": "Cd",
+        "randomFact": "O cádmio é um metal de transição tóxico, usado em baterias recarregáveis e em revestimentos."
+    },
+    "Índio": {
+        "name": "Índio",
+        "abbreviation": "In",
+        "randomFact": "O índio é um metal de transição usado em semicondutores, em telas sensíveis ao toque e em painéis solares."
+    },
+    "Estanho": {
+        "name": "Estanho",
+        "abbreviation": "Sn",
+        "randomFact": "O estanho é um metal de transição usado em ligas metálicas, em revestimentos e na fabricação de latas."
+    },
+    "Antimônio": {
+        "name": "Antimônio",
+        "abbreviation": "Sb",
+        "randomFact": "O antimônio é um elementoóide usado em ligas metálicas, em retardadores de fogo e em medicamentos."
+    },
+    "Telúrio": {
+        "name": "Telúrio",
+        "abbreviation": "Te",
+        "randomFact": "O telúrio é um elementoóide usado em semicondutores, em painéis solares e em ligas metálicas."
+    },
+    "Iodo": {
+        "name": "Iodo",
+        "abbreviation": "I",
+        "randomFact": "O iodo é um elementoóide necessário para a síntese de hormônios da tireoide e tem aplicações em antissépticos."
+    },
+    "Xenônio": {
+        "name": "Xenônio",
+        "abbreviation": "Xe",
+        "randomFact": "O xenônio é um gás nobre incolor e inodoro, usado em lâmpadas de xenônio e em dispositivos de iluminação."
+    },
+    "Césio": {
+        "name": "Césio",
+        "abbreviation": "Cs",
+        "randomFact": "O césio é um metal alcalino macio e altamente reativo, usado em relógios atômicos e em dispositivos eletrônicos."
+    },
+    "Bário": {
+        "name": "Bário",
+        "abbreviation": "Ba",
+        "randomFact": "O bário é um metal alcalino-terroso usado em ligas metálicas, em aplicações médicas e em materiais pirotécnicos."
+    },
+    "Lantânio": {
+        "name": "Lantânio",
+        "abbreviation": "La",
+        "randomFact": "O lantânio é um metal de terras raras usado em lâmpadas de arco, em ímãs e em materiais cerâmicos."
+    },
+    "Cério": {
+        "name": "Cério",
+        "abbreviation": "Ce",
+        "randomFact": "O cério é um metal de terras raras usado em catalisadores, em lâmpadas e em componentes eletrônicos."
+    },
+    "Praseodímio": {
+        "name": "Praseodímio",
+        "abbreviation": "Pr",
+        "randomFact": "O praseodímio é um metal de terras raras usado em liga de magnésio, em cerâmicas e em vidros."
+    },
+    "Neodímio": {
+        "name": "Neodímio",
+        "abbreviation": "Nd",
+        "randomFact": "O neodímio é um metal de terras raras usado em ímãs de neodímio, em lasers e em vidros coloridos."
+    },
+    "Promécio": {
+        "name": "Promécio",
+        "abbreviation": "Pm",
+        "randomFact": "O promécio é um elementoóide radioativo usado em dispositivos de medição nuclear e em pesquisas científicas."
+    },
+    "Samário": {
+        "name": "Samário",
+        "abbreviation": "Sm",
+        "randomFact": "O samário é um metal de terras raras usado em ligas metálicas, em ímãs permanentes e em catalisadores."
+    },
+    "Európio": {
+        "name": "Európio",
+        "abbreviation": "Eu",
+        "randomFact": "O európio é um metal de terras raras usado em lâmpadas fluorescentes, em monitores de computador e em ímãs."
+    },
+    "Gadolínio": {
+        "name": "Gadolínio",
+        "abbreviation": "Gd",
+        "randomFact": "O gadolínio é um metal de terras raras usado em reatores nucleares, em contrastes para ressonância magnética e em lâmpadas."
+    },
+    "Térbio": {
+        "name": "Térbio",
+        "abbreviation": "Tb",
+        "randomFact": "O térbio é um metal de terras raras usado em dispositivos ópticos, em ímãs de alta temperatura e em lasers."
+    },
+    "Disprósio": {
+        "name": "Disprósio",
+        "abbreviation": "Dy",
+        "randomFact": "O disprósio é um metal de terras raras usado em lasers, em ímãs de alta potência e em componentes eletrônicos."
+    },
+    "Hólmio": {
+        "name": "Hólmio",
+        "abbreviation": "Ho",
+        "randomFact": "O hólmio é um metal de terras raras usado em lasers, em ímãs de alta potência e em materiais de controle nuclear."
+    },
+    "Érbio": {
+        "name": "Érbio",
+        "abbreviation": "Er",
+        "randomFact": "O érbio é um metal de terras raras usado em lâmpadas fluorescentes, em reatores nucleares e em fibras ópticas."
+    },
+    "Túlio": {
+        "name": "Túlio",
+        "abbreviation": "Tm",
+        "randomFact": "O túlio é um metal de terras raras usado em lasers médicos, em fibras ópticas e em vidros especiais."
+    },
+    "Itérbio": {
+        "name": "Itérbio",
+        "abbreviation": "Yb",
+        "randomFact": "O itérbio é um metal de terras raras usado em lasers, em relógios atômicos e em estudos de materiais."
+    },
+    "Lutécio": {
+        "name": "Lutécio",
+        "abbreviation": "Lu",
+        "randomFact": "O lutécio é um metal de terras raras usado em catalisadores, em materiais de controle nuclear e em dispositivos ópticos."
+    },
+    "Háfnio": {
+        "name": "Háfnio",
+        "abbreviation": "Hf",
+        "randomFact": "O háfnio é um metal de transição usado em ligas metálicas, em reatores nucleares e em fibras ópticas."
+    },
+    "Tântalo": {
+        "name": "Tântalo",
+        "abbreviation": "Ta",
+        "randomFact": "O tântalo é um metal de transição resistente à corrosão, usado em ligas metálicas e em componentes eletrônicos."
+    },
+    "Tungstênio": {
+        "name": "Tungstênio",
+        "abbreviation": "W",
+        "randomFact": "O tungstênio é um metal de transição com alto ponto de fusão, usado em lâmpadas incandescentes e em ligas metálicas."
+    },
+    "Rênio": {
+        "name": "Rênio",
+        "abbreviation": "Re",
+        "randomFact": "O rênio é um metal de transição usado em ligas metálicas, em catalisadores e em componentes de turbina."
+    },
+    "Ósmio": {
+        "name": "Ósmio",
+        "abbreviation": "Os",
+        "randomFact": "O ósmio é um metal de transição com alta densidade, usado em ligas metálicas e em pontas de canetas-tinteiro."
+    },
+    "Irídio": {
+        "name": "Irídio",
+        "abbreviation": "Ir",
+        "randomFact": "O irídio é um metal de transição extremamente resistente à corrosão, usado em ligas metálicas e em pontas de agulhas."
+    },
+    "Platina": {
+        "name": "Platina",
+        "abbreviation": "Pt",
+        "randomFact": "A platina é um metal de transição usado em joias, em catalisadores e em eletrodos de alta temperatura."
+    },
+    "Ouro": {
+        "name": "Ouro",
+        "abbreviation": "Au",
+        "randomFact": "O ouro é um metal de transição amarelo brilhante, usado em joias, em moedas e em aplicações eletrônicas."
+    },
+    "Mercúrio": {
+        "name": "Mercúrio",
+        "abbreviation": "Hg",
+        "randomFact": "O mercúrio é um elementoóide líquido prateado, usado em termômetros e em lâmpadas fluorescentes."
+    },
+    "Tálio": {
+        "name": "Tálio",
+        "abbreviation": "Tl",
+        "randomFact": "O tálio é um metal de transição tóxico, usado em lentes ópticas, em eletrônica e em tratamentos médicos."
+    },
+    "Chumbo": {
+        "name": "Chumbo",
+        "abbreviation": "Pb",
+        "randomFact": "O chumbo é um metal de transição tóxico, usado em baterias, em revestimentos e em soldas."
+    },
+    "Bismuto": {
+        "name": "Bismuto",
+        "abbreviation": "Bi",
+        "randomFact": "O bismuto é um metalóide usado em ligas metálicas, em medicamentos e em pigmentos para cosméticos."
+    },
+    "Polônio": {
+        "name": "Polônio",
+        "abbreviation": "Po",
+        "randomFact": "O polônio é um elementoóide radioativo, usado em pesquisas científicas e em dispositivos de eliminação estática."
+    },
+    "Astato": {
+        "name": "Astato",
+        "abbreviation": "At",
+        "randomFact": "O astato é um elementoóide radioativo, e todos seus isótopos são instáveis."
+    },
+    "Radônio": {
+        "name": "Radônio",
+        "abbreviation": "Rn",
+        "randomFact": "O radônio é um gás nobre incolor e inodoro, usado em radioterapia e em estudos de vazamentos em construções."
+    },
+    "Frâncio": {
+        "name": "Frâncio",
+        "abbreviation": "Fr",
+        "randomFact": "O frâncio é um metal alcalino altamente radioativo, com vida média de apenas alguns minutos."
+    },
+    "Rádio": {
+        "name": "Rádio",
+        "abbreviation": "Ra",
+        "randomFact": "O rádio é um metal alcalino-terroso radioativo, usado em radioterapia e em pesquisas científicas."
+    },
+    "Actínio": {
+        "name": "Actínio",
+        "abbreviation": "Ac",
+        "randomFact": "O actínio é um metal de terras raras radioativo, usado em pesquisas científicas e em reatores nucleares."
+    },
+    "Tório": {
+        "name": "Tório",
+        "abbreviation": "Th",
+        "randomFact": "O tório é um metal de terras raras radioativo, usado em lâmpadas de gás e em reatores nucleares."
+    },
+    "Protactínio": {
+        "name": "Protactínio",
+        "abbreviation": "Pa",
+        "randomFact": "O protactínio é um metal de terras raras radioativo, usado em pesquisas científicas e em reatores nucleares."
+    },
+    "Urânio": {
+        "name": "Urânio",
+        "abbreviation": "U",
+        "randomFact": "O urânio é um metal de transição radioativo, usado como combustível em reatores nucleares e em armas nucleares."
+    },
+    "Netúnio": {
+        "name": "Netúnio",
+        "abbreviation": "Np",
+        "randomFact": "O netúnio é um metal de transição radioativo, usado em pesquisas científicas e em reatores nucleares."
+    },
+    "Plutônio": {
+        "name": "Plutônio",
+        "abbreviation": "Pu",
+        "randomFact": "O plutônio é um metal de transição radioativo, usado em armas nucleares e em geradores termoelétricos."
+    },
+    "Amerício": {
+        "name": "Amerício",
+        "abbreviation": "Am",
+        "randomFact": "O amerício é um metal de transição radioativo, usado em pesquisas científicas e em fontes de nêutrons."
+    },
+    "Cúrio": {
+        "name": "Cúrio",
+        "abbreviation": "Cm",
+        "randomFact": "O cúrio é um metal de transição radioativo, usado em pesquisas científicas e em fontes de radiação."
+    },
+    "Berquélio": {
+        "name": "Berquélio",
+        "abbreviation": "Bk",
+        "randomFact": "O berquélio é um metal de transição radioativo, usado em pesquisas científicas e em fontes de radiação."
+    },
+    "Califórnio": {
+        "name": "Califórnio",
+        "abbreviation": "Cf",
+        "randomFact": "O califórnio é um metal de transição radioativo, usado em pesquisas científicas e em fontes de radiação."
+    },
+    "Einstênio": {
+        "name": "Einstênio",
+        "abbreviation": "Es",
+        "randomFact": "O einstênio é um metal de transição radioativo, usado em pesquisas científicas e em fontes de radiação."
+    },
+    "Férmio": {
+        "name": "Férmio",
+        "abbreviation": "Fm",
+        "randomFact": "O férmio é um metal de transição radioativo, usado em pesquisas científicas e em fontes de radiação."
+    },
+    "Mendelévio": {
+        "name": "Mendelévio",
+        "abbreviation": "Md",
+        "randomFact": "O mendelévio é um metal de transição radioativo, usado em pesquisas científicas e em fontes de radiação."
+    },
+    "Nobélio": {
+        "name": "Nobélio",
+        "abbreviation": "No",
+        "randomFact": "O nobélio é um metal de transição radioativo, usado em pesquisas científicas e em fontes de radiação."
+    },
+    "Laurêncio": {
+        "name": "Laurêncio",
+        "abbreviation": "Lr",
+        "randomFact": "O laurêncio é um metal de transição radioativo, usado em pesquisas científicas e em fontes de radiação."
+    },
+    "Rutherfórdio": {
+        "name": "Rutherfórdio",
+        "abbreviation": "Rf",
+        "randomFact": "O rutherfórdio é um elementoóide sintético, sendo extremamente radioativo e de vida curta."
+    },
+    "Dúbnio": {
+        "name": "Dúbnio",
+        "abbreviation": "Db",
+        "randomFact": "O dúbnio é um elementoóide sintético, sendo extremamente radioativo e de vida curta."
+    },
+    "Seabórgio": {
+        "name": "Seabórgio",
+        "abbreviation": "Sg",
+        "randomFact": "O seabórgio é um elementoóide sintético, sendo extremamente radioativo e de vida curta."
+    },
+    "Bóhrio": {
+        "name": "Bóhrio",
+        "abbreviation": "Bh",
+        "randomFact": "O bóhrio é um elementoóide sintético, sendo extremamente radioativo e de vida curta."
+    },
+    "Hássio": {
+        "name": "Hássio",
+        "abbreviation": "Hs",
+        "randomFact": "O hássio é um elementoóide sintético, sendo extremamente radioativo e de vida curta."
+    },
+    "Meitnério": {
+        "name": "Meitnério",
+        "abbreviation": "Mt",
+        "randomFact": "O meitnério é um elementoóide sintético, sendo extremamente radioativo e de vida curta."
+    },
+    "Darmstádio": {
+        "name": "Darmstádio",
+        "abbreviation": "Ds",
+        "randomFact": "O darmstádio é um elementoóide sintético, sendo extremamente radioativo e de vida curta."
+    },
+    "Roentgênio": {
+        "name": "Roentgênio",
+        "abbreviation": "Rg",
+        "randomFact": "O roentgênio é um elementoóide sintético, sendo extremamente radioativo e de vida curta."
+    },
+    "Copernício": {
+        "name": "Copernício",
+        "abbreviation": "Cn",
+        "randomFact": "O copernício é um elementoóide sintético, sendo extremamente radioativo e de vida curta."
+    },
+    "Nihônio": {
+        "name": "Nihônio",
+        "abbreviation": "Nh",
+        "randomFact": "O nihônio é um elementoóide sintético, sendo extremamente radioativo e de vida curta."
+    },
+    "Flevório": {
+        "name": "Fleróvio",
+        "abbreviation": "Fl",
+        "randomFact": "O fleróvio é um elementoóide sintético, sendo extremamente radioativo e de vida curta."
+    },
+    "Moscóvio": {
+        "name": "Moscóvio",
+        "abbreviation": "Mc",
+        "randomFact": "O moscóvio é um elementoóide sintético, sendo extremamente radioativo e de vida curta."
+    },
+    "Livermório": {
+        "name": "Livermório",
+        "abbreviation": "Lv",
+        "randomFact": "O livermório é um elementoóide sintético, sendo extremamente radioativo e de vida curta."
+    },
+    "Tennesso": {
+        "name": "Tennesso",
+        "abbreviation": "Ts",
+        "randomFact": "O tennesso é um elementoóide sintético, sendo extremamente radioativo e de vida curta."
+    },
+    "Oganessônio": {
+        "name": "Oganessônio",
+        "abbreviation": "Og",
+        "randomFact": "O oganessônio é um elementoóide sintético, sendo extremamente radioativo e de vida curta."
+    }
+}
