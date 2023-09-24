@@ -9,18 +9,20 @@
     font-family: Arial, Helvetica, sans-serif;
 
     color: var(--main-text-color);
-    /*outline: 1px solid red;*/ 
+    
+    /*outline: 1px solid red; */ 
 }
 
 /* variaveis de cor*/
 :root{
+
     /*backgrounds*/
     --cor-interna: #e2e1e1; 
     --cor-externa: #c2c3c6;
     /*text*/
     --main-highlight-color:  orangered;
-    --main-text-color: #292323;
-    --misc-text-color: #0f1f3b;
+    --main-text-color: #c7bdbd;
+    --misc-text-color: #92b05e;
     /*borders*/
     --border-color: #ffffff ;
     --bio-border-color: #0f1f3b;
@@ -48,7 +50,7 @@
     position: relative;
     z-index: -2;
     margin: 0;
-    animation: fadeAnimation 1.5s ease-in forwards;*/
+    animation: fadeAnimation 1.5s ease-in forwards;
 }
 #page-main-title-wrapper{
     display: flex;
@@ -88,12 +90,47 @@
 }
 
 #mainQuimica{
-    display: grid;
-    grid-auto-flow: column;
+    display: none;
+    grid-template-columns: 1fr;
     height: 100dvh;
     width: 100dvw;
     margin: 0;
+    overflow: hidden;
+    background-color: burlywood;
+    background: url(../css/sala.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    
 }
+#quadro_negro{
+    background-image: url(../css/quadro_negro.jpg); 
+    background-size: cover;
+    margin: 10% 0% 20% 00%;
+    color: wheat;
+
+    
+    display: none;
+}
+#element-details{
+    border-right: #292323 solid 1px;
+    border-left:#292323 solid 1px;
+}
+#quadroleto{
+    display: grid;  
+    margin-left: auto; 
+    margin-right: auto;
+}
+#quadroleto img{
+    width: 80%;
+    height: 100dvh;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
 
 
 @keyframes fadeAnimation {
@@ -105,4 +142,3 @@
 
 }
 }
-

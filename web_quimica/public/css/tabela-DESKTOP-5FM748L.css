@@ -6,9 +6,7 @@ counter-reset: element;
 display: grid;
 grid-column-gap: .5vw;
 grid-row-gap: .5vw;
-width: 60vw;
-height: 20vh;
-;
+width: 80%;
 
 }
 .periodic-table > li {
@@ -16,13 +14,12 @@ display: flex;
 position: relative;
 justify-content: center;
 align-items: center;
-height: 3.5dvw;
+height: 4dvw;
 width: auto;
 border-radius: 3px;
 background: rgb(91, 194, 234);
 font-weight: bold;
 border: solid 1px black;
-color: black
 }
 .periodic-table > li:before {
 counter-increment: element; 
@@ -30,13 +27,11 @@ content: counter(element);
 position: absolute;
 bottom: 5px;
 left: 6px;
-font-size: .7vw;
+font-size: .9vw;
 font-weight: lighter;
-color: black
 }
 .periodic-table > li abbr {
-color: black;
-font-size: 1.5vw;
+font-size: 2vw;
 }
 #helio {
 grid-column-start: 18;
@@ -89,22 +84,22 @@ background: hsl(142, 60%, 56%);
 .periodic-table .outros-metais{
     background: hsl(41, 63%, 34%);  
 }
-.go-left {
+.rotate-left {
 
     animation: turn-left 0.3s ease forwards;
   }
   
   @keyframes turn-left {
     0% {
-      transform:translateX(0%);
-
+      transform: rotate(0deg) translateY(0%);
+      width: 100%;
     }
     100% {
-      transform: translateX(-30%);
-
+      transform: rotate(-90deg) translateY(-10%);
+      width: 100vh;
     }
   }
-.go-right {
+.rotate-right {
 
     animation: turn-right 0.3s ease forwards;
 
@@ -112,10 +107,10 @@ background: hsl(142, 60%, 56%);
 
 @keyframes turn-right {
   0% {
-    transform: translateX(-30%);
+    transform: rotate(-90deg) translateY(-30%) scale(75%) scaleY(80%);
   }
   100% {
-    transform: translateX(0%);
+    transform: rotate(0deg) translateY(0%) scale(100%) scaleY(100%);
   }
 }
 
