@@ -15,7 +15,7 @@
 
 /* variaveis de cor*/
 :root{
-
+    overflow: hidden;
     /*backgrounds*/
     --cor-interna: #e2e1e1; 
     --cor-externa: #c2c3c6;
@@ -97,7 +97,7 @@
     margin: 0;
     overflow: hidden;
     background-color: burlywood;
-    background: url(../css/sala.jpg) no-repeat center center fixed; 
+    background: url(../css/sala.jpeg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -106,7 +106,7 @@
     
 }
 #quadro_negro{
-    background-image: url(../css/quadro_negro.jpg); 
+
     background-size: cover;
     margin: 10% 0% 20% 00%;
     color: wheat;
@@ -115,22 +115,102 @@
     display: none;
 }
 #element-details{
+    /*
     border-right: #292323 solid 1px;
     border-left:#292323 solid 1px;
+    */
 }
 #quadroleto{
+    
     display: grid;  
-    margin-left: auto; 
-    margin-right: auto;
+
 }
 #quadroleto img{
     width: 80%;
-    height: 100dvh;
+    height: 140%;
+    left: 10%;
+    
+
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
+
+}
+#detalhes-btns *{
+    margin-top: 5%;
+    background-color: #67f86f; /* Green */
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#arquivo{
+    background-image: url(../css/arquivo.png);
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4% 20% 20% 20% 15%;
+    gap: 4%;
+    left: 85%;
+    top: 30%;
+    min-height: 80%;
+    min-width: 100%;
+}
+#arquivo-tecnico{
+    background-image: url(../css/arquivo_indiv.jpeg);
+    grid-row: 2/2;
+    margin-left: 1%;
+}
+#arquivo-tecnico:hover{
+    background-image: url(../css/arquivo_indiv_aberto.png);
+
+}
+#arquivo-tecnico span{
+    color: black;
+    padding-left: 5%;
+}
+
+
+
+#arquivo-aplicacoes{
+    background-image: url(../css/arquivo_indiv.jpeg);
+    grid-row: 3/3;
+    margin-left: 1%;
 
 }
 
+#arquivo-aplicacoes:hover{
+    background-image: url(../css/arquivo_indiv_aberto.png);
+
+}
+#arquivo-aplicacoes span{
+    font-size: 20px;
+    color: black;
+    margin-top: 50%;
+    padding-left: 5%;
+}
+
+
+#arquivo-experimentos{
+    background-image: url(../css/arquivo_indiv.jpeg);
+    grid-row: 4/4;
+    
+
+    margin-left: 1%;
+}
+
+#arquivo-experimentos:hover{
+    background-image: url(../css/arquivo_indiv_aberto.png);
+
+}
+#arquivo-experimentos span{
+    color: black;
+    padding-left: 5%;
+
+}
 
 
 @keyframes fadeAnimation {

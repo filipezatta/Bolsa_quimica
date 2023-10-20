@@ -9,100 +9,216 @@
     font-family: Arial, Helvetica, sans-serif;
 
     color: var(--main-text-color);
-    /*outline: 1px solid red;*/ 
+    
+    /*outline: 1px solid red; */ 
 }
 
 /* variaveis de cor*/
 :root{
+    overflow: hidden;
     /*backgrounds*/
     --cor-interna: #e2e1e1; 
     --cor-externa: #c2c3c6;
     /*text*/
     --main-highlight-color:  orangered;
-    --main-text-color: #292323;
-    --misc-text-color: #0f1f3b;
+    --main-text-color: #c7bdbd;
+    --misc-text-color: #92b05e;
     /*borders*/
     --border-color: #ffffff ;
     --bio-border-color: #0f1f3b;
 
-    --header-height: 0vh;
-    --footer-height: 0vh;
 
 /*https://coolors.co/palette/000000-14213d-fca311-e5e5e5-ffffff*/
 }
 
-body {
-    min-height: 100vh;
+#start-wrapper{
 }
-header {    
+
+#img-bg{
+    width: 100dvw;
+    height: 100dvh;
+    position: absolute;
+    overflow: hidden;
+    z-index: -2;
+
+}
+#img-bg::after {
+    display: block;
+    content: url(../images/peakpx.jpg);
+    filter: brightness(15%);
+    width: fit-content;
     position: relative;
-    padding-left: 20px;
-    padding-right: 1px;
-    min-height: var(--header-height);
-    margin: 0px 0px 0px 0px;
-    padding: 0 0 10px 10px;
+    z-index: -2;
+    margin: 0;
+    animation: fadeAnimation 1.5s ease-in forwards;
+}
+#page-main-title-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    height: 100dvh; /* Set the height of the parent container */
+    width: 100dvw;
+}
+#page-main-title-wrapper *{
+    z-index: 1;
+
+    /*
+    opacity: 0;
+    transform: translateY(0);
+    animation: fadeAnimation 1.5s ease-in forwards;*/
+}
+#main-title-buttons{
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    width: 100%;
-    background-color: var(--cor-externa);
 
-    & #logo{
-        display: flex;
-        align-items: end;
-        padding-right: 10px;
-        border-right: 3px solid var(--bio-border-color);
-        > img {            
-            max-height: calc(var(--header-height));
-        }
-    }
-
-    & #links {
-        margin-left: 1%;
-        display: flex;
-        justify-content: left;
-    }
-} 
-
-main {
-    background-color: var(--cor-interna);
-    box-sizing: border-box;
-    min-height: calc(100vh - var(--header-height) - var(--footer-height));
-    && abbr {
-        cursor:help;}
+}
+#main-title-buttons *{
+    color: #0f1f3b;
+    font-size: 2rem;
+    margin: 0 20px;
+    border:unset;
+    border-left: solid 2px rgb(235, 0, 0);
+    width: calc(2rem + 5vw);
+}
+#main-title{
+    color: white;
+    font-size: 5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
-footer {
-    min-height: var(--footer-height);
-    position: relative; 
-    display: flex;
-    width: 100%;
-    flex-direction: row;       
-    background-color: var(--cor-externa);   
+#mainQuimica{
+    display: none;
+    grid-template-columns: 1fr;
+    height: 100dvh;
+    width: 100dvw;
+    margin: 0;
+    overflow: hidden;
+    background-color: burlywood;
+    background: url(../css/sala.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
     
-    > div {
-        width: 100%;
-    }
+}
+#quadro_negro{
 
-    & #info {
-        padding: 10px;
-        list-style: none;  
-        font-size: 14px;
-        
-        > li {
-            text-align: left; 
-            border-style: solid;
-            border-color: var(--main-highlight-color);
-            border-width: 0px 0px 0px 3px ;
-            
-        
-            > p {
-                margin-left: 4px;
-                > a {
-                    text-decoration: none;
-                }
-            }
-        }
-    }
+    background-size: cover;
+    margin: 10% 0% 20% 00%;
+    color: wheat;
 
+    
+    display: none;
+}
+#element-details{
+    /*
+    border-right: #292323 solid 1px;
+    border-left:#292323 solid 1px;
+    */
+}
+#quadroleto{
+    
+    display: grid;  
+
+}
+#quadroleto img{
+    width: 80%;
+    height: 140%;
+    left: 10%;
+    
+
+    margin-left: auto;
+    margin-right: auto; 
+
+}
+#detalhes-btns *{
+    margin-top: 5%;
+    background-color: #67f86f; /* Green */
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#arquivo{
+    background-image: url(../css/arquivo.png);
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4% 20% 20% 20% 15%;
+    gap: 4%;
+    left: 85%;
+    top: 30%;
+    min-height: 80%;
+    min-width: 100%;
+}
+#arquivo-tecnico{
+    background-image: url(../css/arquivo_indiv.jpeg);
+    grid-row: 2/2;
+    margin-left: 1%;
+}
+#arquivo-tecnico:hover{
+    background-image: url(../css/arquivo_indiv_aberto.png);
+
+}
+#arquivo-tecnico span{
+    color: black;
+    padding-left: 5%;
+}
+
+
+
+#arquivo-aplicacoes{
+    background-image: url(../css/arquivo_indiv.jpeg);
+    grid-row: 3/3;
+    margin-left: 1%;
+
+}
+
+#arquivo-aplicacoes:hover{
+    background-image: url(../css/arquivo_indiv_aberto.png);
+
+}
+#arquivo-aplicacoes span{
+    font-size: 20px;
+    color: black;
+    margin-top: 50%;
+    padding-left: 5%;
+}
+
+
+#arquivo-experimentos{
+    background-image: url(../css/arquivo_indiv.jpeg);
+    grid-row: 4/4;
+    
+
+    margin-left: 1%;
+}
+
+#arquivo-experimentos:hover{
+    background-image: url(../css/arquivo_indiv_aberto.png);
+
+}
+#arquivo-experimentos span{
+    color: black;
+    padding-left: 5%;
+
+}
+
+
+@keyframes fadeAnimation {
+0% {
+    filter: brightness(12.5%);
+}
+100% {
+    filter: brightness(20%);
+
+}
 }

@@ -4,22 +4,27 @@ counter-reset: element;
 }
 .periodic-table {
 display: grid;
-grid-column-gap: .5vw;
-grid-row-gap: .5vw;
-padding: 5vh 5vw 5vh 5vw;
-margin: auto
+grid-column-gap: .4vw;
+grid-row-gap: .4vw;
+width: 60vw;
+height: 18vh;
+margin-top: 5%;
+margin-left: auto;
+margin-right: auto; 
+
 }
 .periodic-table > li {
 display: flex;
 position: relative;
 justify-content: center;
 align-items: center;
-height: 4vw;
+height: 3.1dvw;
 width: auto;
 border-radius: 3px;
 background: rgb(91, 194, 234);
 font-weight: bold;
 border: solid 1px black;
+color: black
 }
 .periodic-table > li:before {
 counter-increment: element; 
@@ -27,11 +32,13 @@ content: counter(element);
 position: absolute;
 bottom: 5px;
 left: 6px;
-font-size: .9vw;
+font-size: .7vw;
 font-weight: lighter;
+color: black
 }
 .periodic-table > li abbr {
-font-size: 2vw;
+color: black;
+font-size: 1.4vw;
 }
 #helio {
 grid-column-start: 18;
@@ -84,7 +91,35 @@ background: hsl(142, 60%, 56%);
 .periodic-table .outros-metais{
     background: hsl(41, 63%, 34%);  
 }
+.go-left {
 
+    animation: turn-left 0.3s ease forwards;
+  }
+  
+  @keyframes turn-left {
+    0% {
+      transform:translateX(0%);
+
+    }
+    100% {
+      transform: translateX(-30%);
+
+    }
+  }
+.go-right {
+
+    animation: turn-right 0.3s ease forwards;
+
+}
+
+@keyframes turn-right {
+  0% {
+    transform: translateX(-30%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
 
 /*
 referencias
