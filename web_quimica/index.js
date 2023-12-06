@@ -42,4 +42,8 @@ app.get('/', function(req, res){
     res.sendFile(pages + '/home.html');
 });
 
+app.get('/teste', function(req, res){
+  res.sendFile(pages + '/teste.html');
+});
+
 
